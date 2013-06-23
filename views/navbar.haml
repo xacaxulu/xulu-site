@@ -1,0 +1,19 @@
+.navbar.navbar-fixed-top
+	.navbar-inner
+		.container
+			%a.btn.btn-navbar{ "data-toggle".to_sym => "collapse", "data-target".to_sym => ".nav-collapse"}
+				%span.icon-bar
+				%span.icon-bar
+				%span.icon-bar
+			%a.brand{:href => '/'} xaca xulu
+			.nav-collapse
+				%ul.nav
+					%li
+						%a{:href => '/'}Home
+					%li
+						%a{:href => '/cv'}CV
+					%li
+						%a{:href => '/contact'}Contact
+					%li
+						%a{:href => 'http://osrc.dfm.io/xacaxulu', :target=>"_blank"}Open Source Report Card
+

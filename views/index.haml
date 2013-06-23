@@ -1,0 +1,39 @@
+.container
+	.hero-unit
+		%h1
+			Hi नमस्ते Sawubona Hola سلام Bonjour
+		%p
+			I'm a software developer, geo-political intelligence analyst, security consultant and a technological internationalist.
+		%img{:src => "bootstrap/img/263131_10150222440556319_2277025_n.jpg"}
+		%img{:src =>"bootstrap/img/798274_10151208028321319_146505106_o.jpg"}
+		%img{:src =>"bootstrap/img/283027_10150243065286319_2195794_n.jpg"}
+	.row
+		.span4
+			%h1
+				%b Me gusta:
+			%p
+				%b non-traditional, austere and developing countries
+				%em eco-conscious, sustainable development in dangerous places
+				%b risk management, geopolitical intelligence and security
+			%p
+				%a.btn{:href => '/contact'} Find Me
+		.span4
+			%h1
+				%b Knowledge:
+			%p
+				gSchool provides real world technical and business training for motivated individuals. The progams we offer are in-person, full-time, and apply real-world situational learning.
+				%br
+			%p
+				%a.btn{:href => 'http://www.gschool.it/ruby', :target=>"_blank"} Knowledge=Power
+		.span4
+			%h1
+				%b Toolkit:
+			%p
+				Ruby, Rails, diesel Mercedes, doxycycline, Sinatra, javascript, pairing, testing+TDD, RSpec, MiniTest, GitHub, Tor, agile, GNU/Linux, MacOS, vim, Satcoms, solar panels
+			%p
+				%a.btn{:href => '/cv'} Pour en savoir plus
+		
+
+	%hr
+
+	%div= haml :footer
