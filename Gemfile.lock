@@ -6,6 +6,7 @@ GEM
       addressable (~> 2.2.6)
     haml (4.0.0)
       tilt
+    newrelic_rpm (3.6.4.122)
     rack (1.5.2)
     rack-protection (1.3.2)
       rack
@@ -24,6 +25,7 @@ PLATFORMS
 DEPENDENCIES
   dm-core
   haml
+  newrelic_rpm
   rake
   shotgun
   sinatra

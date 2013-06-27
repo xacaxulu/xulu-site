@@ -6,4 +6,4 @@ gem "haml"
 gem "shotgun"
 gem "rake"
 gem "tilt", "~> 1.3.3"
-
+gem "newrelic_rpm"
