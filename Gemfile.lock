@@ -1,23 +1,22 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    addressable (2.2.8)
-    dm-core (1.2.0)
-      addressable (~> 2.2.6)
-    haml (4.0.0)
+    addressable (2.3.5)
+    dm-core (1.2.1)
+      addressable (~> 2.3)
+    haml (4.0.3)
       tilt
-    newrelic_rpm (3.6.4.122)
     rack (1.5.2)
-    rack-protection (1.3.2)
+    rack-protection (1.5.0)
       rack
-    rake (10.0.3)
+    rake (10.1.0)
     shotgun (0.9)
       rack (>= 1.0)
-    sinatra (1.3.4)
+    sinatra (1.4.3)
       rack (~> 1.4)
-      rack-protection (~> 1.3)
-      tilt (~> 1.3, >= 1.3.3)
-    tilt (1.3.3)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    tilt (1.3.7)
 
 PLATFORMS
   ruby
@@ -25,7 +24,6 @@ PLATFORMS
 DEPENDENCIES
   dm-core
   haml
-  newrelic_rpm
   rake
   shotgun
   sinatra
