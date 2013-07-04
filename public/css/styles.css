@@ -27,8 +27,8 @@ img{
               text-align: center;
               }
 .span4 {
-          box-shadow: 4px 4px 4px #B8B8B8  ;
+          box-shadow: 2px 2px 2px 2px #B8B8B8  ;
   -moz-box-shadow: 4px 4px 4px #B8B8B8 ;
   -webkit-box-shadow: 4px 4px 4px #B8B8B8 ;}
-
+.span4 p {padding: 4px;}
 
